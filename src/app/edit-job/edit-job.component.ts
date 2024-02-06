@@ -1,7 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { FormBuilder, FormGroup, Validators } from '@angular/forms';
 import { ActivatedRoute, Router } from '@angular/router';
-import { JobService } from '../job.service';
+import { JobService } from '../services/job.service';
 
 @Component({
   selector: 'app-edit-job',
