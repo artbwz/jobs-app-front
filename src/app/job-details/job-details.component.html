@@ -1,0 +1,10 @@
+<div class="job-details">
+    <h2>Job Details</h2>
+    <p>Company: {{ job.company }}</p>
+    <p>Position: {{ job.position }}</p>
+    <p>Status: {{ job.status }}</p>
+    <p>Description: {{ job.description }}</p>
+    <button (click)="onEditJob(job)">Edit</button>
+    <button (click)="onDeleteJob(job)">Delete</button>
+  </div>
+  
